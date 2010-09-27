@@ -1,0 +1,2 @@
+rm aux.txt
+../sim-safe fpppp.ss < ./natoms-input.in

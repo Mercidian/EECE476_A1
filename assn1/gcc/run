@@ -1,0 +1,2 @@
+rm aux.txt
+../sim-safe -max:inst 200000000 cc1.ss -O2 integrate.i

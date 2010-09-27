@@ -1,0 +1,31 @@
+The benchmark you will use to test your simulator can be run using the following command:
+
+	./sim-ece552 fpppp.ss < ./natoms-input.in
+
+The simulation should take around 2 minutes to complete.  
+
+
+About this benchmark
+====================
+
+The benchmark, "fpppp" is from the SPEC 95 benchmark suite.  The source code for it
+is written in Fortran (we do not give you this source code--you will not need it).  The 
+binary is relatively small yet this benchmark can still result in many instruction cache 
+misses on modern high-speed processors that do not have special mechanisms to "prefetch" 
+instructions into the instruction cache before they are needed.
+
+Here is some additional information on "fpppp" from www.SPEC.org
+
+    * From the Gaussian series of quantum chemistry benchmarks 
+      (two electron integral derivative).
+    * The atoms in 145.fpppp are placed in a relatively compact 
+      region of space positioned in a graphite-like lattice. To 
+      accomplish this, code has been added that computes an atom's 
+      coordinates a a site on an orthorhombic lattice with a 
+      Gaussian deviation. The '92 version had a mistakenly linear 
+      arrangement of the atoms.
+    * Cannot be parallelized (the behavior of each atom is affected 
+      be the behavior of each one of the other atoms).
+    * Minimal cache footprint. Mostly a test of register 
+      allocation/performance.
+    * Good exhibition of superscaler performance features.

@@ -1,0 +1,33 @@
+fpppp
+
+sim: ** simulation statistics **
+sim_num_cond_branches       1571413 # total conditional branches executed
+sim_cond_branch_freq         0.0105 # relative frequency of conditional branches
+sim_num_uncond_branches       532920 # total unconditional branches executed
+sim_uncond_branch_freq       0.0036 # relative frequency of conditional branches
+sim_num_fcomp_instr        49855174 # total floating-point instruction executed
+sim_fcomp_instr_freq         0.3322 # relative frequency of floating-point instructions
+sim_num_store_instr        22407512 # total store instruction executed
+sim_store_instr_freq         0.1493 # relative frequency of store instructions
+sim_num_load_instr         57550946 # total load instruction executed
+sim_load_instr_freq          0.3835 # relative frequency of load instructions
+sim_num_imm_instr           1760481 # total immediate instruction executed
+sim_imm_instr_freq           0.0117 # relative frequency of immediate instructions
+sim_num_insn              150067427 # total number of instructions executed
+sim_num_refs               79958458 # total number of loads and stores executed
+sim_elapsed_time               2162 # total simulation time in seconds
+sim_inst_rate            69411.3908 # simulation speed (in insts/sec)
+ld_text_base             0x00400000 # program text (code) segment base
+ld_text_size                 292032 # program text (code) size in bytes
+ld_data_base             0x10000000 # program initialized data segment base
+ld_data_size                 486256 # program init'ed `.data' and uninit'ed `.bss' size in bytes
+ld_stack_base            0x7fffc000 # program stack segment base (highest address in stack)
+ld_stack_size                 16384 # program initial stack size
+ld_prog_entry            0x00400140 # program entry point (initial PC)
+ld_environ_base          0x7fff8000 # program environment base address address
+ld_target_big_endian              0 # target executable endian-ness, non-zero if big endian
+mem.page_count                  117 # total number of pages allocated
+mem.page_mem                   468k # total size of memory pages allocated
+mem.ptab_misses                 119 # total first level page table misses
+mem.ptab_accesses         914421446 # total page table accesses
+mem.ptab_miss_rate           0.0000 # first level page table miss rate
